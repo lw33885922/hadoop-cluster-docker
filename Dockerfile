@@ -14,7 +14,7 @@ RUN wget https://mirrors.tuna.tsinghua.edu.cn/apache/hadoop/common/stable/hadoop
     rm hadoop-2.9.2.tar.gz
 
 # set environment variable
-ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64 
+ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 
 ENV HADOOP_HOME=/usr/local/hadoop 
 ENV PATH=$PATH:/usr/local/hadoop/bin:/usr/local/hadoop/sbin 
 
